@@ -67,7 +67,21 @@ public class DesafioLambdaMain {
 
         ordemAlfabetica.ordernarEmOrdemAlfabetica(lista);
 
-        System.out.println(lista);
+        //System.out.println(lista);
+
+        DividirPrimeiroPorSegundo primeiroPorSegundo = (p, s) -> {
+
+            Double r = p / s;
+
+            if(r == 0){
+                throw new ArithmeticException();
+            }
+            return r;
+        };
+
+        System.out.println(primeiroPorSegundo.dividirPrimeiroPeloSegundo(0, 10));
     }
+
+
 }
 
