@@ -69,6 +69,8 @@ public class DesafioLambdaMain {
 
         //System.out.println(lista);
 
+
+        // Desafio 6
         DividirPrimeiroPorSegundo primeiroPorSegundo = (p, s) -> {
 
             Double r = p / s;
